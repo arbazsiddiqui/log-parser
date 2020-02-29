@@ -1,6 +1,8 @@
 # log-parser
 [![Build Status](https://travis-ci.org/arbazsiddiqui/log-parser.svg?branch=master)](https://travis-ci.org/arbazsiddiqui/log-parser)
 
+>An api to parse logs and filter them based on params
+
 ### Getting Started
 
 1. Perform a clone of this repo `git clone https://github.com/arbazsiddiqui/log-parser`
