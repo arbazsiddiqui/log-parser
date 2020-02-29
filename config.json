@@ -1,0 +1,10 @@
+{
+  "production" : {
+    "port" : 8080,
+    "logPath" : "./sampleLog.txt"
+  },
+  "test" : {
+    "port" : 8080,
+    "logPath" : "./test/testLog.txt"
+  }
+}
