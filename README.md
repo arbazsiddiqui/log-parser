@@ -43,8 +43,6 @@ Api to fetch logs using query params like timstamp, status code etc.
    IP of the logs to fetch. Example : 183.187.104.41
 
 * **Success Response:**
-  
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
   * **Code:** 200 <br />
     **Content:** `[ 2020-01-02T00:06:33.312Z Request received from 111.94.139.169 for /projects ]`
