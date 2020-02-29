@@ -10,9 +10,9 @@
 6. To run tests use `npm t`
 
 
-### API
+## API
 
-## /log
+### /log
 Api to fetch logs using query params like timstamp, status code etc.
 
 * **URL**
