@@ -1,4 +1,5 @@
 # log-parser
+[![Build Status](https://travis-ci.org/arbazsiddiqui/log-parser.svg?branch=master)](https://travis-ci.org/arbazsiddiqui/log-parser)
 
 ### Getting Started
 
