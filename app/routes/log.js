@@ -6,10 +6,9 @@ module.exports = function (app) {
 		try {
 			const {status, route, ip, timestampFrom, timestampTo} = req.query;
 			const result = await logController.parseLogs({status, route, ip, timestampTo, timestampFrom});
-			res.send(200, result);
+			res.status(200).send(result)
 		} catch (err) {
 			console.log({err}, "error in parsing logs");
-			res.send(500, {message: "Something went wrong"})
-		}
+			res.status(500).send({message: "Something went wrong"})}
 	});
 };
