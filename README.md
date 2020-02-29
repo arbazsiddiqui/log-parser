@@ -30,20 +30,20 @@ Api to fetch logs using query params like timstamp, status code etc.
 
    **Optional:**
  
-   `timestampFrom=string]`
-   Start time of logs to parse in ISO 8601 format. Example : 2020-01-01T00:00:00.182Z
+   `timestampFrom=string`
+   Start time of logs to parse in ISO 8601 format. Example : `2020-01-01T00:00:00.182Z`
    
    `timestampTo=string`
-   End time of logs to parse in ISO 8601 format. Example : 2020-01-01T00:00:00.182Z
+   End time of logs to parse in ISO 8601 format. Example : `2020-01-01T00:00:00.182Z`
    
    `status=integer`
-   Status code of the logs to fetch. Example : 200
+   Status code of the logs to fetch. Example : `200`
    
    `route=string`
-   Route of the logs to fetch without backslashes. Example : home
+   Route of the logs to fetch without backslashes. Example : `home`
    
    `ip=string`
-   IP of the logs to fetch. Example : 183.187.104.41
+   IP of the logs to fetch. Example : `183.187.104.41`
 
 * **Success Response:**
 
