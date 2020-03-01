@@ -20,7 +20,7 @@ Api to fetch logs using query params like timstamp, status code etc.
 
 * **URL**
 
-  /log?timestampFrom={timestampFrom}&timestampTo={timestampTo}&status={statusCode}&route={route}&ip={ip}
+  `/log?timestampFrom={timestampFrom}&timestampTo={timestampTo}&status={statusCode}&route={route}&ip={ip}`
 
 * **Method:**
   
