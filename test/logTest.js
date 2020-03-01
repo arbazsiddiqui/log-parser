@@ -69,7 +69,7 @@ describe('/parseLog', function () {
 		])
 	});
 
-	it('returns correct logs for an ip', async () => {
+	it('returns correct logs for a route', async () => {
 		const res = await request({
 			url: `http://localhost:${config.port}/log`,
 			qs: {
